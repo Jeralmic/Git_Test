@@ -1,0 +1,25 @@
+.MushLogo
+{
+    margin-top: 30px;
+    height: 96;
+    width: 92;
+}
+
+@font-face {
+    font-family: EB Garamond;
+    src: url(../Git_Test/Fonts/EBGaramond-VariableFont_wght.ttf);
+}
+.Title
+{
+    font-family:EB Garamond;
+    font-size: 15;
+    font-weight: 100;
+    text-align: center;
+}
+
+.table
+{
+    background-color: red;
+
+
+}
