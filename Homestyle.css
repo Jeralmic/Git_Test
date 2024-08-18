@@ -23,7 +23,7 @@
 {
     display: grid;
     box-sizing: border-box;
-    max-width: 1280px;
+    max-width: 1400px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
@@ -40,18 +40,14 @@
     justify-content: space-evenly;
     margin-bottom: 20px;
     position: relative;
-    row-gap: 40px;
 }
 
-#column01
+#column01, #column02, #column03
 {
-   box-sizing: border-box;
-   grid-column-end: auto;
-   grid-column-start: 1;
-   grid-row-end: auto;
-   grid-row-start: 1;
-   position: relative;
+   width: 100%;
+   height: auto;
    display: grid;
+  
 }
 
 
@@ -63,31 +59,22 @@
     margin: 0;
     grid-template-columns: 303px;
     list-style-type: none;
-    display: blocks;
+    display:grid;
+    row-gap: 15px;
 }
 
-#column02
+hr
 {
-   box-sizing: border-box;
-   grid-column-end: auto;
-   grid-column-start: 2;
-   grid-row-end: auto;
-   grid-row-start: 1;
-   position: relative;
-   display: grid;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(194, 194, 194);
+    margin: 0;
+    border: 0;
 }
 
 
-#column03
-{
-   box-sizing: border-box;
-   grid-column-end: auto;
-   grid-column-start: 3;
-   grid-row-end: auto;
-   grid-row-start: 1;
-   position: relative;
-   display: grid;
-}
+
+
 
 
 
@@ -121,7 +108,7 @@
 
 .Headline
 {
-    margin-top: 20px;
+    margin-top: 12px;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -131,17 +118,18 @@
     max-width:303px;
 }
 
-.Author
+.author
 {
     font-size: 13px;
     font-weight: 500;
     letter-spacing: 0.5px;
     line-height: 13px;
     text-transform: uppercase;
-    margin-top: 12px;
+    padding-top: 6px;
 }
 
 .Boxbody, .divider 
 {
     overflow-x: hidden;
+    overflow-y: hidden;
 }
