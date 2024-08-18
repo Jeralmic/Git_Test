@@ -1,8 +1,9 @@
 .MushLogo
 {
     margin-top: 10px;
-    height: 96px;
-    width: 92px;
+    height: auto;
+    width: auto;
+    max-width: 92px;
 }
 
 @font-face {
@@ -11,6 +12,7 @@
 }
 .Title
 {
+    image-resolution: 94px;
     font-family:EB Garamond;
     font-size: 15px;
     font-weight: 100;
