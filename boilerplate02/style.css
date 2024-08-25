@@ -1,0 +1,19 @@
+
+.flex 
+{
+    display: flex;
+}
+
+
+
+.flex div
+{
+background: peachpuff;
+  border: 4px solid brown;
+  height: 100px;
+  width: 250px;
+  flex: 1 1 auto;
+}
+.flex .two{
+    flex-shrink:0;
+}
